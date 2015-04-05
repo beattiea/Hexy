@@ -2487,18 +2487,6 @@ Please make sure your boards conform to these design rules.</description>
 <vertex x="50.8" y="0"/>
 <vertex x="25.4" y="0"/>
 </polygon>
-<polygon width="0.254" layer="15" orphans="yes">
-<vertex x="25.4" y="38.1"/>
-<vertex x="50.8" y="38.1"/>
-<vertex x="50.8" y="0"/>
-<vertex x="25.4" y="0"/>
-</polygon>
-<polygon width="0.254" layer="15" orphans="yes">
-<vertex x="0" y="38.1"/>
-<vertex x="22.86" y="38.1"/>
-<vertex x="22.86" y="0"/>
-<vertex x="0" y="0"/>
-</polygon>
 <polygon width="0.254" layer="2" orphans="yes">
 <vertex x="0" y="38.1"/>
 <vertex x="22.86" y="38.1"/>
@@ -2848,13 +2836,12 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="29.972" y1="6.35" x2="28.702" y2="7.62" width="0.508" layer="1"/>
 <contactref element="U5" pad="P$2"/>
 <contactref element="C8" pad="1"/>
-<wire x1="32.766" y1="11.684" x2="32.766" y2="12.954" width="0.635" layer="1"/>
 <wire x1="32.766" y1="12.954" x2="32.766" y2="16.256" width="0.635" layer="1"/>
 <wire x1="32.832" y1="3.436" x2="31.376" y2="3.436" width="0.508" layer="1"/>
 <wire x1="31.376" y1="3.436" x2="30.48" y2="2.54" width="0.508" layer="1"/>
 <wire x1="30.48" y1="2.54" x2="28.702" y2="2.54" width="0.508" layer="1"/>
-<wire x1="32.832" y1="3.436" x2="32.832" y2="4.318" width="0.508" layer="1"/>
-<wire x1="32.832" y1="4.318" x2="32.832" y2="4.526" width="0.508" layer="1"/>
+<wire x1="32.832" y1="3.436" x2="32.832" y2="4.526" width="0.508" layer="1"/>
+<wire x1="32.832" y1="4.572" x2="32.832" y2="4.526" width="0.508" layer="1"/>
 <wire x1="32.832" y1="4.526" x2="32.932" y2="4.826" width="0.508" layer="1"/>
 <contactref element="R13" pad="2"/>
 <contactref element="JP12" pad="2"/>
@@ -2866,8 +2853,8 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="34.036" y1="16.002" x2="36.83" y2="16.002" width="0.508" layer="1"/>
 <wire x1="45.664" y1="24.13" x2="46.736" y2="25.146" width="0.508" layer="1"/>
 <wire x1="33.02" y1="4.914" x2="32.932" y2="4.826" width="0.508" layer="1"/>
-<wire x1="32.766" y1="11.684" x2="32.766" y2="4.384" width="0.635" layer="1"/>
-<wire x1="32.766" y1="4.384" x2="32.832" y2="4.318" width="0.508" layer="1"/>
+<wire x1="32.766" y1="12.954" x2="32.766" y2="4.638" width="0.635" layer="1"/>
+<wire x1="32.766" y1="4.638" x2="32.832" y2="4.572" width="0.508" layer="1"/>
 <contactref element="JP14" pad="2"/>
 <wire x1="36.83" y1="16.002" x2="37.719" y2="16.891" width="0.508" layer="1"/>
 <wire x1="37.719" y1="16.891" x2="42.418" y2="21.59" width="0.508" layer="1"/>

@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.0025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.25" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="5" fill="1" visible="yes" active="yes"/>
@@ -1936,11 +1936,11 @@ Please make sure your boards conform to these design rules.</description>
 <element name="R13" library="resistor" package="R0402" value="" x="46.482" y="21.336" smashed="yes" rot="R180">
 <attribute name="VALUE" x="47.117" y="23.368" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="R15" library="resistor" package="R0402" value="" x="24.13" y="37.084" smashed="yes">
+<element name="R15" library="resistor" package="R0402" value="49.9k" x="24.13" y="37.084" smashed="yes">
 <attribute name="NAME" x="25.273" y="36.83" size="0.762" layer="25" ratio="15"/>
 <attribute name="VALUE" x="23.495" y="35.052" size="1.27" layer="27"/>
 </element>
-<element name="R14" library="resistor" package="R0402" value="" x="24.13" y="35.814" smashed="yes" rot="R180">
+<element name="R14" library="resistor" package="R0402" value="150k" x="24.13" y="35.814" smashed="yes" rot="R180">
 <attribute name="NAME" x="25.273" y="35.306" size="0.762" layer="25" ratio="15"/>
 <attribute name="VALUE" x="24.765" y="37.846" size="1.27" layer="27" rot="R180"/>
 </element>
@@ -2486,18 +2486,6 @@ Please make sure your boards conform to these design rules.</description>
 <vertex x="50.8" y="38.1"/>
 <vertex x="50.8" y="0"/>
 <vertex x="25.4" y="0"/>
-</polygon>
-<polygon width="0.254" layer="15" orphans="yes">
-<vertex x="25.4" y="38.1"/>
-<vertex x="50.8" y="38.1"/>
-<vertex x="50.8" y="0"/>
-<vertex x="25.4" y="0"/>
-</polygon>
-<polygon width="0.254" layer="15" orphans="yes">
-<vertex x="0" y="38.1"/>
-<vertex x="22.86" y="38.1"/>
-<vertex x="22.86" y="0"/>
-<vertex x="0" y="0"/>
 </polygon>
 <polygon width="0.254" layer="2" orphans="yes">
 <vertex x="0" y="38.1"/>
